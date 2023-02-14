@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vite App</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+  </style><!-- this  -->
+</head>
+<body>
+  <h2 class="heading">Employee Details</h2>
+  <form action="action_page.php" method="post">
+    <div class="container">
+      <label for="uname"><strong>Employee name</strong></label> <input type="text" placeholder="Enter Username" name="Ename" value="Name" required=""> <label for="age"><strong>Age</strong></label> <input type="number" placeholder="Enter age" name="age" value="Age" required=""> <label for="gender"><strong>Gender :</strong></label> Male <input type="radio" name="gender" value="Male" required=""> Female <input type="radio" name="gender" value="Female" required=""><br>
+      <br>
+      <label for="designation"><strong>Designation</strong></label> <input type="text" placeholder="Enter designation" name="designation" value="designation" required=""> <label for="Salary"><strong>Salary</strong></label> <input type="number" placeholder="Enter Salary" name="Salary" value="Salary" required=""> <label for="Location" style="font-weight: bold; font-size: 20px;"><strong>Select Location</strong></label> &nbsp; &nbsp; <select name="Location" id="Location">
+        <option value="Ahemdabad" style="font-weight: bold; font-size: 20px;">
+          Ahemdabad
+        </option>
+        <option value="Rajkot" style="font-weight: bold; font-size: 20px;">
+          Rajkot
+        </option>
+        <option value="Jamnager" style="font-weight: bold; font-size: 20px;">
+          Jamnager
+        </option>
+        <option value="Morbi" style="font-weight: bold; font-size: 20px;">
+          Morbi
+        </option>
+      </select> <label for="email"><strong>Email ID</strong></label> <input type="email" placeholder="Enter Email ID" name="email" value="Email" required=""><br>
+      <br>
+      <label for="email" style="font-weight: bold; font-size: 20px;"><strong>Date of Joining</strong></label> &nbsp; &nbsp; <input type="date" placeholder="Enter DOJ" name="DOJ" value="DOJ" required=""><br>
+      <br>
+      <label for="contact"><strong>Contact Number</strong></label> <input type="number" placeholder="Enter contact number" name="contact" value="contact" required=""><br>
+      <br>
+      <button type="submit">Ragister</button>
+    </div>
+  </form>
+</body>
+</html>

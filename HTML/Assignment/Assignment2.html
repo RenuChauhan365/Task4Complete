@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume By Using HTML and CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+
+
+      body{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 25vw;
+    margin-top: 0;
+    border: 2px solid black;
+
+  }
+  .main{
+  background-color: aliceblue;
+  display: flex;
+  padding: 0;
+
+  }
+  .left{
+  height: 1450px;
+  background-color: black;
+  width: 10vw;
+  margin: 0px;
+  }
+  .renhead{
+  background-color:black;
+  color: black;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius:  0px 50px 50px 0px;
+  width: 20vw;
+  }
+
+  .ren{
+  color: white;
+  margin-left: 20px;}
+
+  #ren{
+  color: white;
+  margin-left: 20px;
+  margin-top: 2px;
+  }
+
+
+  .renName {
+  background-color: rgb(107, 189, 189);
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  height: 190px;
+
+  }
+
+  .profile {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 25px;
+  }
+
+  .tabledit th td {
+  padding: 10px;
+  }
+
+
+  @media only screen and (max-width:500px) {
+  body {
+    width: 100%;
+    padding: 0;
+    background-color: rgb(240, 235, 209);
+  }
+
+  .renName {
+    background-color: rgb(3, 17, 17);
+    color: white;
+  }
+  }
+
+
+  .edu {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 25px;
+  margin-bottom: 0px;
+  }
+
+  .edu table{
+  margin-bottom: 0px;
+  }
+
+  .intern {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  }
+
+
+  .intern  h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  }
+
+  .skill {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  }
+
+
+  .project {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  .project h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  }
+
+  .project table {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  .extra {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  }
+
+  .lang {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  }
+  .head{
+  display: flex;
+  }
+
+
+    </style>
+
+
+
+
+
+    <!-- this  -->
+  </head>
+  <body>
+    <div class="main">
+      <div class="left"></div>
+      <!--  this is  right side div  -->
+      <div class="right">
+        <!-- this is the header -->
+        <div class="renhead">
+          <h2 class="ren">Renu Chauhan</h2>
+          <p id="ren">Software Developer</p>
+        </div>
+        <br />
+        <div class="profile">
+          <h3>PROFILE</h3>
+          <p id="profl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis corporis enim impedit architecto laboriosam!
+            Perferendis nulla maxime autem fugit possimus accusantium repellat
+            ad voluptates fuga, beatae vitae ducimus cumque laudantium quidem a
+            ea facilis.lorem34 Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Provident beatae doloremque fugiat sed, illum
+            obcaecati autem dolorem quo porro quaerat fugit est atque?
+          </p>
+        </div>
+        <div class="edu">
+          <table class="tabledit" style="width: 100%">
+            <caption style="width: 100px; text-align: left">
+              EDUCATION
+            </caption>
+            <tr>
+              <th style="width: 100px; text-align: center">Course</th>
+              <th>Institute</th>
+              <th style="width: 100px; text-align: center">Grade</th>
+            </tr>
+            <tr>
+              <td style="width: 100px; text-align: center">BE</td>
+              <td style="text-align: center">
+                B.H Gardi college of Engineering and Technology
+              </td>
+              <td style="width: 100px; text-align: center">80%</td>
+            </tr>
+            <tr>
+              <td style="width: 100px; text-align: center">12th</td>
+              <td style="text-align: center; width: 160px">
+                Kotak kanyamandir
+              </td>
+              <td style="width: 100px; text-align: center">64%</td>
+            </tr>
+            <tr>
+              <td style="width: 100px; text-align: center">10th</td>
+              <td style="text-align: center">Mahavir school</td>
+              <td style="width: 100px; text-align: center">72%</td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <br />
+        <div class="intern">
+          <h3>INTERNHIP</h3>
+          <h3>Android Developer Intern</h3>
+          INTERNHIP completed dolor sit amet consectetur adipisicing elit. Ipsa
+          quis suscipit sunt amet quas? Maxime veritatis accusamus natus alias
+          doloribus voluptas culpa quis magni eos doloremque. Excepturi quos rem
+          voluptas ipsa officia debitis corrupti.
+        </div>
+        <div class="skill">
+          <h3>SKILL</h3>
+          <ul>
+            <li>Data Structure | Android Development | HTML | CSS</li>
+            <li>Programming language - JAVA | C</li>
+            <li>Javascript | DBMS</li>
+            <li>Leadership skill</li>
+            <li>Team Management | Communication Skill | Creativity</li>
+          </ul>
+        </div>
+        <div class="project">
+          <table style="width: 100%">
+            <caption style="text-align: left">
+              PROJECT
+            </caption>
+            <tr>
+              <th style="width: 190px; text-align: center">Project Name</th>
+              <th>Technology</th>
+            </tr>
+            <tr>
+              <td style="width: 100px; text-align: center">EmerCall</td>
+              <td style="width: 190px; text-align: center">
+                JAVA | XML | ANDROID STUDIO | FIREBASE
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 190px; text-align: center">Spotify Clone</td>
+              <td style="width: 190px; text-align: center">
+                HTML | CSS | JAVASCRIPT
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <br />
+        <div class="extra">
+          <h3>EXTRACURRICULAR ACTIVITES</h3>
+          <ul>
+            <li>
+              Oraganized one tech event called <strong>STEAM</strong> during the
+              <strong>Immaculate.</strong>
+            </li>
+            <li>Participate in PLASTt-EX Hackathon</li>
+            <li>
+              Participation in IUCEE course "Introduction to Sustainability".
+            </li>
+          </ul>
+        </div>
+        <div class="lang">
+          <h3>LANGUAGE</h3>
+          <ul>
+            <li>Gujarati | Hindi | English</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

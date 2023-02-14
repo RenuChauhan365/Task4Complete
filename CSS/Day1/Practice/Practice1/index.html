@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card</title>
+    <link rel="stylesheet" href="./style.css">
+    
+
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+            background-color: aliceblue;
+            width: 30vw;
+        }
+
+        table,
+        td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+
+        }
+
+        .reportmid{
+            background-color: aliceblue;
+            border: 2px solid black;
+            height: 100vh;
+            width: 40vw;
+          padding: 140px;
+        }
+    </style>
+</head>
+
+<body>
+ 
+
+ <!--  this is a main content  -->
+
+<div class="reportmid">
+
+
+
+   <h1 style="font-weight: bold; margin-left: 200px;">This is in Modelu1 of CSS</h1>
+    <h1 style="text-align: center;"> Student Report Card some Change </h1>
+
+    <label for="Sname"><strong>Name</strong></label>
+    <input type="text" placeholder="Enter Your Name" name="Ename" value="Name" required>
+
+    <label for="age"><strong>RollNo.</strong></label>
+    <input type="number" placeholder="Enter age" name="age" value="Age" required>
+
+    <br><br><br>
+    <label for="yop"><strong>Year of Passing</strong></label> &nbsp
+    <input type="date" placeholder="Enter age" name="yop" value="yop" required>
+
+
+
+    <br><br>
+    <table>
+        <caption style="text-align: center; font-size: 30px;">Grade of Subjects</caption>
+        <th>SUBJECTS</th>
+        <th>GRADES</th>
+        <th>Action Taken</th>
+
+
+        <tr>
+            <td>Data structure</td>
+            <td>A</td>
+            <td>Passed</td>
+        </tr>
+
+
+        <tr>
+            <td>Compiler Design</td>
+            <td>B</td>
+            <td>Passed</td>
+        </tr>
+
+        <tr>
+            <td>DBMS</td>
+            <td>D</td>
+            <td>Passed</td>
+        </tr>
+
+        <tr>
+            <td>Math</td>
+            <td>A</td>
+            <td>Passed</td>
+        </tr>
+
+        <tr>
+            <td>PDS</td>
+            <td>C</td>
+            <td>Passed</td>
+        </tr>
+
+
+
+
+    </table>
+
+</div>
+
+</body>
+
+</html>

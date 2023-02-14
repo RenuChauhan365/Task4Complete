@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="./EmployeeForm/style.css">
+    <style>
+        .container {
+            background-color: rgb(196, 233, 221);
+            height: 400px;
+            width: 500px;
+        }
+
+        .img {
+            align-items: center;
+        }
+
+        .img img {
+            align-items: center;
+            height: 90px;
+            width: 110px;
+            margin-top: 110px;
+            margin-left: 190px;
+        }
+
+        .midcontainer {
+            display: flex;
+        }
+
+        .htmlimg {
+
+            margin-left: 25vw;
+            margin-top: 90px;
+            float: right;
+            height: 200px;
+            width: 300px;
+        }
+
+        .left ul {
+            margin-top: 10px;
+        }
+
+   .linePara{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+   }
+
+   #day1{
+    margin-top: 40px;
+   }
+
+
+   .midform{
+    margin-left: 80px;
+    margin-top: 20px;
+            /* margin-left: 10vw; */
+            height: 80vh;
+            background-color: rgb(162, 236, 205);
+            border: 3px solid black;
+         
+            padding: 30px;
+
+   }
+
+   table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+
+        <div class="nav">
+            <nav>
+                <div class="logo">
+                    <img src="../Practice/Images/download.jfif" alt="logo">
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="HtmlFile.html" target="_self">HTML</a></li>
+                        <li><a href="CSSFile.html" target="_self">CSS</a></li>
+                        <li><a href="Bootstrapfile.html" target="_self">Bootstrap</a></li>
+                        <li><a href="JavascriptFile.html" target="_self">javascript</a></li>
+                        <li><a href="JQueryFile.html" target="_self">JQuery</a></li>
+                        <li><a href="Mini_Project.html" target="_self">Mini Project</a></li>
+                        <li><a href="SQLFile.html" target="_self">SQL</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="midcontainer">
+
+        <div class="left">
+            <ul>
+                <li id="day1"> Day1</li>
+
+                <ul>
+                    <li>Practice
+                        <ul>
+                            <li><a class="linePara"  href="../Practice/Practice1.html" target="_self">Practice 1</a></li>
+                            <li><a class="linePara" href="../Practice/Practice2.html" target="_self">Practice 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>Assignment
+                        <ul>
+                            <li><a class="linePara" href="./Assignment1.html" target="_self">Assignment 1</a></li>
+                            <li><a class="linePara" href="./Assignment2.html" target="_blank">Assignment 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+
+
+
+        </div>
+
+
+
+        <div class="righthtmllog">
+<div class="midform">
+    <h2 class="heading">Employee Details</h2>
+    <form action="action_page.php" method="post">
+      <div class="container">
+        <label for="uname"><strong>Employee name</strong></label> <input type="text" placeholder="Enter Username" name="Ename" value="Name" required=""> <label for="age"><strong>Age</strong></label> <input type="number" placeholder="Enter age" name="age" value="Age" required=""> <label for="gender"><strong>Gender :</strong></label> Male <input type="radio" name="gender" value="Male" required=""> Female <input type="radio" name="gender" value="Female" required=""><br>
+        <br>
+        <label for="designation"><strong>Designation</strong></label> <input type="text" placeholder="Enter designation" name="designation" value="designation" required=""> <label for="Salary"><strong>Salary</strong></label> <input type="number" placeholder="Enter Salary" name="Salary" value="Salary" required=""> <label for="Location" style="font-weight: bold; font-size: 20px;"><strong>Select Location</strong></label> &nbsp; &nbsp; <select name="Location" id="Location">
+          <option value="Ahemdabad" style="font-weight: bold; font-size: 20px;">
+            Ahemdabad
+          </option>
+          <option value="Rajkot" style="font-weight: bold; font-size: 20px;">
+            Rajkot
+          </option>
+          <option value="Jamnager" style="font-weight: bold; font-size: 20px;">
+            Jamnager
+          </option>
+          <option value="Morbi" style="font-weight: bold; font-size: 20px;">
+            Morbi
+          </option>
+        </select> <label for="email"><strong>Email ID</strong></label> <input type="email" placeholder="Enter Email ID" name="email" value="Email" required=""><br>
+        <br>
+        <label for="email" style="font-weight: bold; font-size: 20px;"><strong>Date of Joining</strong></label> &nbsp; &nbsp; <input type="date" placeholder="Enter DOJ" name="DOJ" value="DOJ" required=""><br>
+        <br>
+        <label for="contact"><strong>Contact Number</strong></label> <input type="number" placeholder="Enter contact number" name="contact" value="contact" required=""><br>
+        <br>
+        <button type="submit">Ragister</button>
+      </div>
+    </form>
+  
+  
+</div>
+       
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+
+
+
+</body>
+
+</html>

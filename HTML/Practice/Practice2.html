@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./prac2Style.css">
+
+    <style>
+         table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 20px;
+        padding: 30px;
+        text-align: center;
+        background-color: aliceblue;
+        width: 30vw;
+      }
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+        .container {
+            background-color: rgb(196, 233, 221);
+            height: 400px;
+            width: 500px;
+        }
+
+        .img {
+            align-items: center;
+        }
+
+        .img img {
+            align-items: center;
+            height: 90px;
+            width: 110px;
+            margin-top: 110px;
+            margin-left: 190px;
+        }
+
+        .midcontainer {
+            display: flex;
+        }
+
+        .htmlimg {
+
+            margin-left: 25vw;
+            margin-top: 90px;
+            float: right;
+            height: 200px;
+            width: 300px;
+        }
+
+        .left ul {
+            margin-top: 10px;
+        }
+
+        .linePara {
+            text-decoration: none;
+            list-style: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        #day1 {
+            margin-top: 40px;
+        }
+
+        .ren{
+            margin-top: 20px;
+            margin-left: 10vw;
+            height: 80vh;
+            background-color: beige;
+            border: 3px solid black;
+         
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <header>
+
+
+
+        <div class="nav">
+            <nav>
+                <div class="logo">
+                    <img src="./Images/download.jfif" alt="">
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="HtmlFile.html" target="_self">HTML</a></li>
+                        <li><a href="CSSFile.html" target="_self">CSS</a></li>
+                        <li><a href="Bootstrapfile.html" target="_self">Bootstrap</a></li>
+                        <li><a href="JavascriptFile.html" target="_self">javascript</a></li>
+                        <li><a href="JQueryFile.html" target="_self">JQuery</a></li>
+                        <li><a href="Mini_Project.html" target="_self">Mini Project</a></li>
+                        <li><a href="SQLFile.html" target="_self">SQL</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="midcontainer">
+
+        <div class="left">
+            <ul>
+                <li id="day1"> Day1</li>
+
+                <ul>
+                    <li>Practice
+                        <ul>
+                            <li><a class="linePara" href="./HTML/Practice/Practice1.html" target="_self">Practice 1</a>
+                            </li>
+                            <li><a class="linePara" href="./HTML/Practice/Practice1.html" target="_self">Practice 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>Assignment
+                        <ul>
+                            <li><a class="linePara" href="../Assignment/Assignment1.html" target="_self">Assignment 1</a></li>
+                            <li><a class="linePara" href="../Assignment/Assignment2.html" target="_blank">Assignment 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+
+
+
+        </div>
+
+
+
+        <div class="righthtmllog">
+
+           
+<div class="ren">
+
+
+
+            <h1 style="text-align: center">Student Report Card</h1>
+
+            <label for="Sname"><strong>Name</strong></label>
+            <input
+              type="text"
+              placeholder="Enter Your Name"
+              name="Ename"
+              value="Name"
+              required
+            />
+        
+            <label for="age"><strong>RollNo.</strong></label>
+            <input
+              type="number"
+              placeholder="Enter RollNo."
+              name="rollno"
+              value="Age"
+              required
+            />
+        
+            <br /><br /><br />
+            <label for="yop"><strong>Year of Passing</strong></label> &nbsp;
+            <input
+              type="date"
+              placeholder="Enter age"
+              name="yop"
+              value="yop"
+              required
+            />
+            <br /><br />
+        
+            <table>
+              <caption style="font-weight: bold; text-align: left; margin-bottom: 10px">
+                Grades of Subjects
+              </caption>
+        
+              <th>SUBJECTS</th>
+              <th>GRADES</th>
+              <th>Action Taken</th>
+              <tr>
+                <td>Data structure</td>
+                <td>A</td>
+                <td>Passed</td>
+              </tr>
+        
+              <tr>
+                <td>Compiler Design</td>
+                <td>B</td>
+                <td>Passed</td>
+              </tr>
+        
+              <tr>
+                <td>DBMS</td>
+                <td>D</td>
+                <td>Passed</td>
+              </tr>
+        
+              <tr>
+                <td>Math</td>
+                <td>A</td>
+                <td>Passed</td>
+              </tr>
+        
+              <tr>
+                <td>PDS</td>
+                <td>C</td>
+                <td>Passed</td>
+              </tr>
+            </table>
+        
+
+
+
+        </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 225vh;
+    border: 2px solid black;
+    width: 150vh;
+}
+
+
+header nav {
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 3px solid skyblue;
+}
+
+.logo img {
+    height: 90px;
+    width: 100px;
+    margin-left: 90px;
+    margin-top: 10px;
+    background-color: gray;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 40px 4px white;
+}
+
+.list ul li{
+   display: inline;
+   box-sizing: border-box;
+}
+
+.list ul li a{
+    list-style: none;
+    display: inline;
+    padding: 7px;
+    margin: 7px;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ 
+
+ .list ul li a:hover{
+    list-style: none;
+    display: inline;
+    padding: 7px;
+    margin: 7px;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+ }
+
+ 
+.list ul {
+    margin-top: 40px;
+}
+
+
+
+.list{
+    margin-top: 0px;
+    margin-left: 200px;
+ 
+}
+.nav{
+    background-color: gray;
+}
+
+
+.midcontainer{
+    display: flex;
+}
+
+
+.left{
+    height: 60vh;
+    width: 22%;
+    background-color: gray;
+    margin-top: 5px;
+}
+
+
+
+.right{
+    height: 70vh;
+    width: 70%;
+    background-color: white;
+    margin-left: 6px;
+}
+
+
+
+
+
+
+
+
+@media only screen  and (min-width:500){
+
+
+
+    
+}
