@@ -2,9 +2,12 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
     background-color: aliceblue;
     color: #38401D;
 }
+
 
 .wrapper {
     width: 80%;
@@ -28,7 +31,7 @@ section div.container img {
 }
 
 section div.container img:hover {
-    opacity: 0.65;
+   opacity: 0.65;
 }
 
 section {
@@ -39,10 +42,14 @@ section h2 {
     text-align: center;
 }
 
+
 @media only screen and (max-width: 768px) {
     .wrapper {
         width: 100%;
     }
+
+
+
 
     section div.container img {
         display: block;
@@ -52,7 +59,8 @@ section h2 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and
+(max-width: 1024px) {
     .wrapper {
         width: 100%;
     }

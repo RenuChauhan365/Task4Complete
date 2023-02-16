@@ -1,0 +1,100 @@
+.container {
+	/* display: grid;
+	grid-template-columns: auto auto auto; */
+	/*justify-content: center;*/
+	/* align-items: flex-start; */
+  
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-flow: column wrap;*/
+	height: 100vh;
+	background-color: rgb(250, 221, 177);
+  }
+  
+  .mid {
+	background-color: beige;
+	height: 392px;
+	width: 492px;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin: 62px;
+	transition: 0.3s;
+  }
+  
+  .mid:hover {
+	background-color: black;
+	color: white;
+	box-shadow: 4px 4px 54px 8px red;
+  }
+  #imge {
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin-left: 30px;
+	margin-top: 20px;
+  }
+  
+  #downimg {
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin-right: 30px;
+	margin-top: 20px;
+  }
+  .left {
+	float: left;
+  }
+  
+  .right {
+	float: right;
+  }
+  
+  #uppara {
+	margin-right: 60px;
+	margin-top: 20px;
+  }
+  
+  #downpara {
+	margin-left: 60px;
+	margin-top: 50px;
+  }
+  
+  .downleft {
+	float: left;
+  }
+  .downright {
+	float: right;
+  }
+  
+  @media screen and (max-width: 700px) {
+	.container {
+	  max-width: 960px;
+	  display: flex;
+	  margin: 0 auto;
+	  height: 200vh;
+   
+	  /* flex-wrap: wrap; */
+	  /* grid-template-columns: auto auto;
+	  grid-auto-rows: minmax(100px, auto); */
+	  /* gap: 10px; */
+	  /* display: block; */
+	}
+  
+  
+	.mid {
+	  box-sizing: border-box;
+	  height: 50vh;
+	  width: 30vw;
+  
+	}
+  
+	.para p {
+	  margin-left: 10px;
+	}
+  
+	
+  }
+  

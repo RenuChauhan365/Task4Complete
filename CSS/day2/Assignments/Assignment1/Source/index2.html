@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu </title>
+<style>
+	body {
+  background-color: rgba(61, 241, 187, 0.644);
+}
+
+.navbar {
+  background-color: rgb(6, 6, 30);
+  border-radius: 40px;
+}
+
+.navbar ul {
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  padding: 13px 3px;
+  margin: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.search {
+  margin: 20px;
+  color: white;
+  float: right;
+  padding: 10px 80px;
+}
+
+.navbar input {
+  border: 2px solid black;
+  padding: 3px 75px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    height: 50vh;
+    background-color: black;
+  }
+
+  .search {
+    color: white;
+    display: block;
+
+  }
+
+  .navbar ul li a {
+    display: block;
+    margin: 0px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<nav class="navbar">
+				<ul>
+					<li><a href="">Home</a> </li>
+					<li><a href="">About US </a></li>
+					<li><a href="">Contact US</a></li>
+					<div class="search">
+						<input type="text" name="search" id="search" placeholder="Search here">
+					</div>
+				</ul>
+			</nav>
+		</header>
+	</div>
+</body>
+
+</html>
