@@ -60,49 +60,29 @@ header nav {
     margin-top: 40px;
 }
 
-
-
 .list{
     margin-top: 0px;
     margin-left: 200px;
- 
 }
 .nav{
     background-color: gray;
 }
-
-
 .midcontainer{
     display: flex;
 }
-
-
 .left{
     height: 60vh;
     width: 22%;
     background-color: gray;
     margin-top: 5px;
 }
-
-
-
 .right{
     height: 70vh;
     width: 70%;
     background-color: white;
     margin-left: 6px;
 }
-
-
-
-
-
-
-
-
 @media only screen  and (min-width:500){
-
-
 
     
 }
